@@ -1,9 +1,9 @@
 @keyframes example {
-    0%   {background-color:rgb(73, 219, 248); left:0px; top:0px;}
-    25%  {background-color:rgb(231, 19, 192); left:90%; top:0px;}
+    0%   {background-color:rgb(73, 219, 248); left:10%; top:10%;}
+    25%  {background-color:rgb(231, 19, 192); left:90%; top:10%;}
     50%  {background-color:rgb(89, 136, 246); left:90%; top:90%;}
-    75%  {background-color:rgb(66, 233, 37); left:0px; top:90%;}
-    100% {background-color:rgb(0, 255, 213); left:0px; top:0px;}
+    75%  {background-color:rgb(66, 233, 37); left:10%; top:90%;}
+    100% {background-color:rgb(0, 255, 213); left:10%; top:10%;}
   }
   
   /* The element to apply the animation to */
@@ -20,9 +20,10 @@ body{
     position: absolute;
     background-color: red;
     animation-name: example;
-    animation-duration: 2.5s;
+    animation-duration: 3s;
     animation-iteration-count:infinite;
     border-radius: 50%;
+    z-index: auto;
     text-align:center;
     vertical-align: middle;
     display: table-cell;
